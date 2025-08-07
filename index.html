@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Quote & Reflection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌞 Daily Quote & Reflection</h1>
+    <div class="quote-box">
+      <p id="quote">Loading quote...</p>
+      <span id="author"></span>
+    </div>
+
+    <textarea
+      id="reflection"
+      placeholder="Write your thoughts here..."
+      rows="8"
+    ></textarea>
+
+    <button onclick="saveReflection()">💾 Save Reflection</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
